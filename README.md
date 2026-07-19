@@ -22,3 +22,15 @@ Beginner-to-intermediate JavaScript practice projects, built and run as plain No
 ## How to run
 
 Make sure Node.js is installed, then run any file with:
+
+Replace the filename with whichever project you want to run. Files ending in `_app.js` or `_finder.js` are interactive — they'll prompt you for input in the terminal.
+
+### API keys
+
+`weather_app.js` needs a free API key from [Visual Crossing](https://www.visualcrossing.com/weather-api). Open the file and replace:
+```javascript
+var API_KEY = "YOUR_API_KEY_HERE";
+```
+with your own key.
+
+`github_random_repo_finder.js` needs no key — it uses GitHub's public search API.
